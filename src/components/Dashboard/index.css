@@ -1,0 +1,91 @@
+
+
+
+.dashboard-section{
+    width: 100%;
+    min-height: 100vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.user-container{
+    background-color: rgb(16, 24, 60);
+    color: white;
+    width: 100%;
+    min-height: 150px;
+
+
+
+}
+
+.user-info-card{
+   
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-bio h2{
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #f2f2f2;
+    line-height: 32px;
+}
+.user-bio p{
+    font-family:sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #e5e5e5;
+    
+}
+
+.date-time-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.date-card{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.time-card{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 40px;
+
+}
+.saved-library-container{
+    z-index: 100;
+    margin-top: -50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  align-items: center;;
+    gap: 20px;
+    padding: 20px 50px;
+;
+}
+
+
+.saved-library-card{
+    width: 200px;
+    height: 180px;
+    background-color: #fff;
+  
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Adjust as needed */
+    border-radius: 10px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+   
+}
+.saved-library-card-info{
+    margin-left: 10px;
+    gap: 20px;
+
+}

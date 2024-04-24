@@ -1,0 +1,78 @@
+.sidebar{
+    width: 80px;
+    height: 100vh;
+    background-color: #fff;
+    display: flex; 
+  
+    transition: all 0.6s ease;
+    z-index: 100;
+    border-right: 1px solid #ccc;
+ 
+}
+
+
+.btn {
+   
+    width: 100%; 
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin: auto;
+ margin-left: -50px;
+}
+
+.open{
+    width: 180px;
+}
+
+.logo{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    margin: auto;
+   
+}
+.sidebar-container{
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+ 
+    flex-direction: column;
+}
+
+.side-links-icons{
+    margin-top: 100px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.icon-card{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.open .icon-card:hover{
+    background-color:#CCFFFF;
+    border-radius: 8px;
+    transform: scale(1.1);
+    transition-delay: 0.2ms;
+    
+}
+.icon-card span{
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgb(55, 63, 65);
+    font-weight: 600;
+    font-family: sans-serif;
+    transition: opacity 1s ease; /* Add transition for smooth effect */
+    opacity: 0; /* Hide the text initially */
+}
+.open .icon-card span{
+    opacity: 1; /* Show the text when sidebar is open */
+}
