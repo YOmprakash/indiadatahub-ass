@@ -6,7 +6,7 @@ import { IoSettingsSharp } from "react-icons/io5";
 import { BiSolidDollarCircle } from "react-icons/bi";
 import './index.css'
 export default function Sidebar() {
-    const [isOpen, setIsOpen] = useState(true);
+    const [isOpen, setIsOpen] = useState(false);
   return (
     <div className={`sidebar ${isOpen ? 'open' : ''}`}>
     <div className='sidebar-container'>

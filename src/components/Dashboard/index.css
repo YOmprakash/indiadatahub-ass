@@ -42,15 +42,45 @@
     
 }
 
+@media screen and (max-width: 768px) {
+    .user-container{
+        display: flex;
+        align-items: center;
+    }
+    .user-bio h2{
+        font-size: 14px;    
+    }
+    .user-bio p{
+        font-size: 8px;
+    }
+    .notification{
+        display: none;
+    }
+}
+
 .date-time-card{
     display: flex;
     align-items: center;
     gap: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    .date-time-card{
+        gap: 10px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .icon{
+        width: 18px;
+        height: 16px;
+    }
+    
+}
 .date-card{
     display: flex;
     align-items: center;
     gap: 10px;
+    font-size: 12px;
 }
 
 .time-card{
@@ -58,6 +88,7 @@
     align-items: center;
     gap: 10px;
     margin-right: 40px;
+    font-size: 12px;
 
 }
 .saved-library-container{
@@ -65,11 +96,19 @@
     margin-top: -50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-  align-items: center;;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
-    padding: 20px 50px;
+    
 ;
+}
+
+@media screen and (max-width: 768px) {
+    .saved-library-container{
+        margin-top: 30px;
+    }
+    
 }
 
 
@@ -84,8 +123,36 @@
     align-items: center;
    
 }
+
+@media screen and (max-width: 768px) {
+    .saved-library-container{
+        margin-top: 30px;
+    }
+    .saved-library-card{
+        width: 150px;
+        height: 150px;
+    }
+    
+}
+
 .saved-library-card-info{
     margin-left: 10px;
-    gap: 20px;
+   
 
+}
+.saved-library-card-info h3{
+    color: rgb(55, 63, 65);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.saved-library-card-info p{
+    color: rgb(115, 123, 125);
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.3px;
 }

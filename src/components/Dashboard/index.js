@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { FaRegCalendar } from "react-icons/fa6";
 import { IoMdTime } from "react-icons/io";
 import { MdNotificationsNone } from "react-icons/md";
+import { BiSolidBookContent } from "react-icons/bi";
 import './index.css'
 import ReactSlider from '../ReactSlider';
 export default function Dashboard() {
@@ -36,47 +37,53 @@ export default function Dashboard() {
         </div>
         <div className='date-time-card'>
         <div className='date-card'>
-          <FaRegCalendar color='#fff' size={24} />
+          <FaRegCalendar color='#fff' size={24} className='icon' />
           {TodaysDate()}
         </div>
         <div className='time-card'>
-        <IoMdTime color='#fff' size={24} />
+        <IoMdTime color='#fff' size={24}  className='icon'/>
         <div>
             {time.getHours()}:{time.getMinutes() < 10 ? '0' : ''}{time.getMinutes()}
         </div>
          
         </div>
-<MdNotificationsNone color='#fff' size={24} />
+<MdNotificationsNone color='#fff' size={24} className='notification'/>
         </div>
       </div>
      </div>
      <div className='saved-library-container'>
       <div className='saved-library-card'>
       <div className=' saved-library-card-info'>
+      <BiSolidBookContent color='#00CCCC' size={24} />
       <h3>Saved Library</h3>
-        <p>date</p>
+        <p>dd-mm-yyyy</p>
       </div>
         </div>
         <div className='saved-library-card'>
       <div className=' saved-library-card-info'>
+      <BiSolidBookContent color='#0066CC' size={24} />
       <h3>Saved Library</h3>
-        <p>date</p>
+      <p>dd-mm-yyyy</p>
+      
       </div>
         </div><div className='saved-library-card'>
       <div className=' saved-library-card-info'>
+      <BiSolidBookContent color='#CC0000' size={24} />
       <h3>Saved Library</h3>
-        <p>date</p>
+      <p>dd-mm-yyyy</p>
       </div>
         </div><div className='saved-library-card'>
       <div className=' saved-library-card-info'>
+      <BiSolidBookContent color='#FF8000' size={24} />
       <h3>Saved Library</h3>
-        <p>date</p>
+      <p>dd-mm-yyyy</p>
       </div>
         </div>
         <div className='saved-library-card'>
       <div className=' saved-library-card-info'>
+      <BiSolidBookContent color='#00CC00' size={24} />
       <h3>Saved Library</h3>
-        <p>date</p>
+      <p>dd-mm-yyyy</p>
       </div>
         </div>
         
