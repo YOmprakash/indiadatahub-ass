@@ -61,7 +61,7 @@ const slideData = [
   {
     id: 9,
     name: "Services exports continue to outperform Goods exports",
-    image: "https://idhblogstaticcontent.s3.amazonaws.com/media/post_image/EXIM_20240418_Page_3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVLJELYUXPFZG6Q6E%2F20240424%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20240424T112921Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0cc0f2ad832b96eadd6068e5e53fe1b507e992415f692dabe97d54ef4b296fc2",
+    image: "https://idhblogstaticcontent.s3.amazonaws.com/media/reportImages/Banking.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVLJELYUXPFZG6Q6E%2F20240424%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20240424T112921Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=add9684d9afe75f918181d22c7fae291b4c669a12cbe698230e2b1063187b4ca",
     description: "Merchandise exports declined 3% YoY in FY24. However, services exports are likely to have grown by 5.5%"
 }
 ]
